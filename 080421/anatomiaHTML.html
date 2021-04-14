@@ -22,6 +22,33 @@
 <!-- contenido que se va a ver en el navegador -->
 
 <body>
+    <!-- Hay dos tipos de elementos. 
+    -Elementos en bloque 
+    ocupan toda el ancho como el <p> el <h1> el <div>,
+    -Elementos en linea 
+    ocupan el ancho del contenido solamente como el <em> o <strong>
+    -->
+
+    <!-- <div> es un elemento que permite agrupar contenidos -->
+    <!-- el <span> no hace nada, pero nos permitira personalizar individualmente el contenido dentro -->
+
+    <!-- elementos HTML que afectan el diseño y no deberian usarse (se debe dejar para CSS) -->
+    <b>Negrita</b>
+    <i>Cursiva</i>
+    <u>Subrayado</u>
+
+    <!-- enfatizar palabras -->
+    <em>Palabra o frase importante. No importa el diseño, sino que la enfatiza y la marca como importante</em>
+    <!-- enfatizar palabras (más que em) de manera semántica -->
+    <strong> Palabra o frase más importante que la anterior. </strong>
+
+    <!-- según nivel de importancia están (de menor a mayor)
+    p
+    em
+    strong
+    encabezados
+    -->
+
     <!-- Encabezados h1 h2 h3 h4 h5 h6 no pueden saltearse. Dan jerarquia (En sentido semántico) al contenido-->
     <h1>Encabezado 1</h1>
     <br> <!-- Agregamos solo una etiqueta <br> ya que por sí sola la etiqueta <p> hace un salto de linea -->
@@ -35,6 +62,49 @@
     <br>
     <!-- el elemento hr traza una linea horizontal -->
     <br>
+    <!-- el elemento a permite incorporar enlaces para hipervinculo -->
+    <!-- target _self abre en la misma pagina, _blank abre en nueva pestaña -->
+    <!-- href puede ser enlace externo (pagina). Esto es una ruta absoluta.También
+    puede ser enlace interno por ejemplo href="contacto.html" el cual te abre
+    algun archivo o seccion interno. Esto es una ruta relativa -->
+    <!-- si quiero hacer un enlace a una sección uso #id_seccion -->
+    <a href="" target="_blank">
+        Nombre
+        <!-- tambien se puede poner imagenes con <img> -->
+    </a>
+
+    <!-- LISTAS -->
+    <!-- listas ordenadas y numerada con <ol> ordered list -->
+    <ol>
+        <!-- dentro de la lista van los list item <li> -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ol>
+    <!-- listas desordenadas con <ul> unordered list -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+    <!-- TABLAS -->
+    <!-- se utiliza el elemento <table> -->
+    <table>
+        <!-- filas con <tr> -->
+        <tr>
+            <!-- <th> es el encabezado -->
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+        </tr>
+        <tr>
+            <!-- campo con <td> son las columnas -->
+            <td>Campo 1</td>
+            <td>Campo 2</td>
+        </tr>
+    </table>
+    <!-- IFRAME nos permite incorporar un sitio o parte de un sitio dentro de otro sitio 
+    ejemplo, videos de youtube, mapas de google map
+    -->
+    <!-- title es una descripcion de lo que contiene iframe para personas con dificultad visual -->
+    <iframe src="" title=""></iframe>
 </body>
 
 </html>
