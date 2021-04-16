@@ -105,6 +105,21 @@
     -->
     <!-- title es una descripcion de lo que contiene iframe para personas con dificultad visual -->
     <iframe src="" title=""></iframe>
+
+    <!-- FORMULARIOS -->
+
+    <!-- action da la url donde se va a procesar, o puede ser mailto:correo@gmail.com -->
+    <!-- method tiene dos opciones POST o GET -->
+    <!-- enctype me da el formato -->
+    <form action="contacto.php" method='POST' enctype="text/plain">
+        <!-- label tiene en el atributo for el mismo nombre que el id de input. permite seleccionar el input
+        cuando hago click en label -->
+        <label for="nombre">Nombre</label>
+        <!-- input nos permite ingresar informacion -->
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" value="">
+        <!-- textarea. permite agregar varias lineas -->
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+    </form>
 </body>
 
 </html>
