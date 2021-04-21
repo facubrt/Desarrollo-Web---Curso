@@ -1,0 +1,14 @@
+/* cascading style sheets */
+
+/* se vincula con html a traves del elemento <link rel="stylesheet" href="style.css"> en HTML */
+
+/* REGLAS */
+/* p (selector) {color: red; (declaracion)} */
+
+/* el selector * implica todos los elementos */
+/* en font-family se utilizan más de una fuente por un tema de
+compatibilidad. Se debe poner de más particular a más genéricas */
+
+/* en CSS utilizamos los identificadores de los elementos de html
+al usar #identificador como selector. Esto permitiría que el style
+solo afecte a ese elemento */
