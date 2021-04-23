@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            height:200vh;
+        }
+        .container{
+            height: 80vh;
+            background-color: darkolivegreen;
+        }
+
+        .cuadrado{
+            height: 200px;
+            width: 200px;
+            background-color: darkorange;
+            padding: 10px;
+        }
+
+        .cuadrado-fixed {
+            background-color: darkred;
+            position: fixed;
+            right: 50%;
+            top: 0;
+        }
+        .cuadrado-abs {
+            position:absolute;
+            left: 20;
+            top:0;
+        }
+        nav {
+            background-color: darkslateblue;
+            position: sticky;
+            top: 0;
+        }
+        a {
+            color: white;
+            font-size: 3em;
+        }
+        .banner{
+            height: 80px;
+            background-color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner"></div>
+    <nav>
+        <a href="">Uno</a>
+        <a href="">Dos</a>
+        <a href="">Tres</a>
+    </nav>
+    <div class="container">
+        <div class="cuadrado"></div>
+        <div class="cuadrado cuadrado-fixed"></div>
+        <div class="cuadrado cuadrado-abs"></div>
+    </div>
+    <div>
+        <div class="cuadrado"></div>
+        
+    </div>
+</body>
+</html>

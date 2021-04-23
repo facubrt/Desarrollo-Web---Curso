@@ -12,3 +12,17 @@ compatibilidad. Se debe poner de más particular a más genéricas */
 /* en CSS utilizamos los identificadores de los elementos de html
 al usar #identificador como selector. Esto permitiría que el style
 solo afecte a ese elemento */
+
+/* EM unidad del contenedor. TOma como referencia el contenedor*/
+/* REM toma como referencia el html completo */
+
+/* TEXTOS */
+/* text transform | none |uppercase | lowercase | etc */
+/* text decoration | line-trough */
+
+/* POSITIONS */
+/* FIXED - sale del flujo, no pertenece al container ni nada. Permanece
+en la misma posición siempre */
+/* RELATIVE se comporta como el estatico, pero permite indicar donde se ubica el elemnto */
+/* STICKY el elemento se comporta normal hasta que llega a un tope y se comporta como fixed */
+/* ABSOLUTA permite activar las cuatro propiedades para ubicar un elemento. Se ubica desde su ancestro relativo más cercano*/
