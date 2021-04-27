@@ -26,3 +26,41 @@ en la misma posición siempre */
 /* RELATIVE se comporta como el estatico, pero permite indicar donde se ubica el elemnto */
 /* STICKY el elemento se comporta normal hasta que llega a un tope y se comporta como fixed */
 /* ABSOLUTA permite activar las cuatro propiedades para ubicar un elemento. Se ubica desde su ancestro relativo más cercano*/
+
+/* SISTEMA DE CASCADA en CSS */
+/* se lee de arriba hacia abajo, por lo que si un estilo
+afecta un selector que habia sido definido más arriba,
+este sobreescribe la regla. Queda vigente la regla de más abajo */
+
+/* HERENCIA */
+/* si defino una regla para un body por ejemplo, todo lo que esté
+dentro del body hereda las reglas de body. Salvo algunos casos particulares
+como son los enlaces <a>. para que herede la propiedad hay que indicarle
+a { color: inherit;}
+ */
+
+ /* ESPECIFICIDAD */
+/* la clase tiene más especificidad que el elemento. es decir que si
+una regla afecta a un elemento, si otra regla afecta una clase de ese elemento
+esa regla tendrá prioridad */
+/* 
+algo { esto es un elemento }
+.algo { esto es una clase }
+#algo { esto es un id }
+
+elemento: 1pt
+clase: 10pt
+id: 100pt
+inline: 1000pt
+
+!important tiene muchisimo más  prioridad. Por ejemplo para colores de marca.
+no es tan recomendable, al igual que style= en el html
+
+MODELO DE CAJA
+
+width
+height
+padding todo | arriba-abajo izq-der | arriba abajo -izq-der | arriba der abajo izq
+border px estilo color | solid, double, dotted
+margin
+outline px estilo color
