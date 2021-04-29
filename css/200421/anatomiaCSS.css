@@ -64,3 +64,14 @@ padding todo | arriba-abajo izq-der | arriba abajo -izq-der | arriba der abajo i
 border px estilo color | solid, double, dotted
 margin
 outline px estilo color
+
+PSEUDOCLASES :hover, :focus, etc
+enlaces -> hover | link(no visitado) | visited | focus | active
+
+PSEUDOELEMENTOS ::selection, ::after, etc
+
+FLOAT (en lo posible no hay que utilizarlo. Es mejor usar flexbox)
+
+DISPLAY
+elementos en bloque ocupan todo el ancho de su contenedor
+elementos in-line ocupan solo el tamaño del contenido

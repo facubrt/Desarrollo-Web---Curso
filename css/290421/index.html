@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase del día 29 de abril, 2021</title>
+    <style>
+        body {
+            margin: 2em;
+
+        }
+        /* agregar el a. indica que solo afectará a los elementos
+        de esta clase pero unicamente a los que sean de este tipo
+        de elementos */
+        a.enlace-texto {
+            color: darkorange;
+            text-decoration:none;
+        }
+        /* pseudo clase hover permite realizar estilo cuando
+        paso el mouse por encima */
+        a.enlace-texto:hover {
+            text-decoration: underline;
+        }
+        a.boton-borde {
+            border: 5px 10px solid red;
+            text-decoration: none;
+        }
+        a.boton-borde:active {
+            background-color: green;
+        }
+        div {
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            padding: 1em;
+            margin: 0.5em;
+            /* float:left; */
+            display: inline-block;
+        }
+
+        p {
+            clear: both; /* para que el parrafo no flote */
+        }
+    </style>
+</head>
+<body>
+   <div>1</div>
+   <div>2</div>
+   <div>3</div>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex deleniti quidem dolor provident fuga modi molestias! Architecto velit quam animi nobis rerum, voluptatum dolores perferendis.</p>   
+</body>
+</html>
