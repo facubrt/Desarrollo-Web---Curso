@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio nro 2 Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-4 mb-4">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputNombre" class="form-label">Nombre de pila</label>
+                <input type="text" class="form-control" id="inputNombre">
+            </div>
+            <div class="col-md-6">
+                <label for="inputApellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputApellido">
+            </div>
+            <div class="col-md-12">
+                <label for="inputUsuario" class="form-label">Nombre de usuario</label>
+                <div class="input-group mt-0">
+                    <div class="input-group-text">@</div>
+                    <input type="text" class="form-control" id="inputUsuario" placeholder="Nombre de usuario">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <label for="inputCorreo" class="form-label">Correo electrónico <span
+                        class="text-black-50">(opcional)</span></label>
+                <input type="email" class="form-control" id="inputCorreo" placeholder="you@example.com">
+            </div>
+            <div class="col-md-12">
+                <label for="inputDireccion" class="form-label">Habla a</label>
+                <input type="text" class="form-control" id="inputDireccion" placeholder="1234 Main St">
+            </div>
+            <div class="col-md-12">
+                <label for="inputDireccion2" class="form-label">Dirección 2 <span
+                        class="text-black-50">(opcional)</span></label>
+                <input type="text" class="form-control" id="inputDireccion2" placeholder="Departamento o Suite">
+            </div>
+            <div class="col-md-6">
+                <label for="inlineFormSelectPref1" class="form-label">País</label>
+                <select class="form-select" id="inlineFormSelectPref1">
+                    <option selected>Seleccionar...</option>
+                    <option value="País1">País 1</option>
+                    <option value=" País2">País 2</option>
+                    <option value="País3">País 3</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="inlineFormSelectPref2" class="form-label">Estado</label>
+                <select class="form-select" id="inlineFormSelectPref2">
+                    <option selected>Seleccionar...</option>
+                    <option value="Estado1">Estado 1</option>
+                    <option value=" Estado2">Estado 2</option>
+                    <option value="Estado3">Estado 3</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputPostal" class="form-label">Código Postal</label>
+                <input type="number" class="form-control" id="inputPostal">
+            </div>
+            <hr class="mt-4">
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                        La dirección de envío es la misma que mi dirección de facturación
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                    <label class="form-check-label" for="gridCheck2">
+                        Guarde esta información para la próxima vez
+                    </label>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Finalizar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
