@@ -1,6 +1,6 @@
 // ANATOMIA JS
 
-// las variables se declaran con var o con let.
+// las variables se declaran con var o con let. Las constantes son const
 // let es recomendable ya que var presenta algunas problemáticas
 // las variables pueden ser de tres tipos, caracteres, numeros y logicos (booleanos)
 // para realizar operaciones aritmeticas, debemos aseguarnos de que las variables sean
@@ -26,7 +26,7 @@ num1 === num2 // esto devolvera false
 // operadores logicos or ||  y and &&
 if (num1 !== num2) {
     console.log('if')
-} 
+}
 
 else if (num1 === num2) {
     console.log('else if')
@@ -39,8 +39,21 @@ else {
 // en una linea
 if (num1 === num2) console.log('esto es para imprimir con ventana emergente')
 
-// BUCLES
-// FOR
+// BUCLES FOR WHILE siguen la misma forma que C++
 
-// WHILE
+/* FUNCIONES */
+function saludar() {
+    console.log('Hola mundo')
+    return
+}
+
+/* SCOPE
+visibilidad de las VARIABLES
+depende de donde fue declarada
+
+una variable dentro de una funcion solamente existirá dentro de la misma
+
+
+*/
+
 
