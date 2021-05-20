@@ -52,8 +52,38 @@ visibilidad de las VARIABLES
 depende de donde fue declarada
 
 una variable dentro de una funcion solamente existirá dentro de la misma
+*/
 
+/* CALLBACKS
+una funcion que se ejecuta dentro de otra función. Por ejemplo
+la funcion Timeout utiliza la funcion mensaje
 
 */
 
+/* setTimeout recibe una funcion como parámetro y tambien un tiempo.
+tiene un delay segun el tiempo establecido y luego ejecuta la función
+
+const mensaje = function() {
+    console.log('pasaron 3 segundos')
+}
+
+setTimeout(mensaje, 3000)
+
+para pasarlo como funcion anonima
+setTimeout(function(){ console.log('pasaron 3 segundos')}, 3000)
+*/
+
+/* ARROW
+nueva forma de escribir funciones en nueva version de JS
+let sumar = (num1, num2) => num1 + num2
+*/
+
+/* FETCH
+permite obtener datos de una pagina particular
+
+fetch('https://jsonplaceholder.typicode.com/users').then(
+    //hacer algo
+).catch(error => console.log(error))
+//cuando hay algun error.
+*/
 
