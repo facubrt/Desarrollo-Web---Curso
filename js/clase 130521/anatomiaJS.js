@@ -87,3 +87,20 @@ fetch('https://jsonplaceholder.typicode.com/users').then(
 //cuando hay algun error.
 */
 
+// /* ARRAYS */
+// let arreglo = new Array()
+// let arreglo = []
+
+// .pop() me da el ultimo valor del array y 
+// quita el ultimo valor del array
+// .slice()
+
+// Array.forEach(function(item) {
+//     console.log(item)
+// })
+
+//.find devuelve un elemento si lo encuentra
+
+//.indexOf() devuelve el indice de un valor determinado en un array
+//.filter() filtra los elementos y devuelve los elementos que coinciden
+// con la condicion dada
