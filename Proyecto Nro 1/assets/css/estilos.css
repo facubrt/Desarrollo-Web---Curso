@@ -12,21 +12,27 @@ Table of contents
 8. Contact
 --------------------------------------------- */
 
-html {font-family: 'Open Sans', sans-serif;}
+
+html {
+  font-family: 'Bebas Neue', cursive;
+  /*font-family: 'Open Sans', sans-serif;*/}
 /* Typography */
 p, a {font-weight: 400;}
 .h2 {font-size: 40px;}
 .h3 {font-size: 28px;}
 .light-300 {
-  font-family: 'Open Sans', sans-serif !important;
+  /*font-family: 'Open Sans', sans-serif*/
+  font-family: 'Bebas Neue', cursive !important;
   font-weight: 300;
 }
 .regular-400 {
-  font-family: 'Open Sans', sans-serif !important;
+  /* font-family: 'Open Sans', sans-serif !important; */
+  font-family: 'Bebas Neue', cursive !important;
   font-weight: 400;
 }
 .semi-bold-600 {
-  font-family: 'Open Sans', sans-serif !important;
+  /* font-family: 'Open Sans', sans-serif !important; */
+  font-family: 'Bebas Neue', cursive !important;
   font-weight: 600;
 }
 .typo-space-line::after,
@@ -35,7 +41,7 @@ p, a {font-weight: 400;}
   width: 150px;
   display:block;
   position: absolute;
-  border-bottom:  5px solid #6266ea;
+  border-bottom:  5px solid #61c57f;
   padding-top: .5em;
 }
 .typo-space-line-center::after {
@@ -46,7 +52,7 @@ p, a {font-weight: 400;}
 #main_nav .nav-item .nav-link:hover {color: #fff;}
 /* Home */
 #index_banner {
-  background-image: url('./../img/banner-bg-01.jpg');
+  background-image: url('./../img/banner-bg-03.jpg');
   background-position: center center; background-size: cover;
   height: 100%;
   min-height: 60vh;
@@ -57,7 +63,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-  color: #6266ea !important;
+  color: #61c57f !important;
   text-decoration: none;
   font-size: 4em;
 }
@@ -66,8 +72,8 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
-  background-color: #6266ea !important;
-  // las rayas de abajo del carrousel van de color azul
+  background-color: #61c57f !important;
+  /*las rayas de abajo del carrousel van de color azul*/
 }
 .service-wrapper .service-footer {
   max-width: 720px;
@@ -97,7 +103,7 @@ p, a {font-weight: 400;}
 }
 .recent-work .recent-work-vertical {
 	background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgb(64, 160, 93) 66.666%, rgba(255,255,255,0) 99.999%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
@@ -131,7 +137,7 @@ p, a {font-weight: 400;}
   width: 8rem;
 }
 .partner-wap {
-  background-color: #7276ec;
+  background-color: #61c57f;
   transition: 1s;
   cursor: pointer;
 }
@@ -183,6 +189,6 @@ p, a {font-weight: 400;}
 }
 /* Footer */
 footer a.text-light:hover {
-  color: #bfbfbf !important;
+  color: #61c57f !important;
   transition-duration: 0.15s;
 }
