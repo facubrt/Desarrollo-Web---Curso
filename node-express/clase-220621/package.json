@@ -1,0 +1,16 @@
+{
+  "name": "clase-220621",
+  "version": "1.0.0",
+  "description": "EXPRESS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Facundo Barreto",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
