@@ -1,0 +1,33 @@
+<%- include('partials/nav') -%>
+<h1>Contacto!</h1>
+
+<% if (typeof errors != 'undefined') { %>
+    <ul>
+        <% errors.forEach((error) => { %>
+            <li><strong><%= error.param%>:</strong> <%= error. msg%></li>
+        <%})%>
+        
+    </ul>
+<%  } %>
+
+<!-- metodo POST envia informacion a traves del formulario. Sirve cuando hay informacion sensible que se quiere enviar segura -->
+<form action="/contacto" method="POST">
+    <div>
+        <label for="">Nombre</label>
+        <input type="text" id="nombre" name="nombre" value="<%= values.nombre%>">
+        <!-- name es el dato que vamos a enviar, es decir el parametro -->
+    </div>
+    <div>
+        <label for="">Email</label>
+        <input type="email" id="email" name="email" value="<%= values.email%>">
+        <!-- name es el dato que vamos a enviar, es decir el parametro -->
+    </div>
+    <div>
+        <label for="">Mensaje: </label>
+        <input type="text" id="mensajes" cols=30 name="mensajes" value="<%= values.mensajes%>">
+        <!-- name es el dato que vamos a enviar, es decir el parametro -->
+    </div>
+    <div>
+        <button type="submit">Enviar</button>
+    </div>
+</form>
